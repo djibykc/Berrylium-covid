@@ -2065,7 +2065,7 @@ if show_charts:
 
 # In[48]:
 
-
+import cv2
 for croiss in ["", "_croissance", "log"]:
     im1 = cv2.imread(PATH + 'images/charts/france/cas_journ{}.jpeg'.format(croiss))
     im2 = cv2.imread(PATH + 'images/charts/france/hosp_journ{}.jpeg'.format(croiss))

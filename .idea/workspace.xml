@@ -1,7 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f380fb3b-e362-484f-bdd6-3c482c3d4711" name="Default Changelist" comment="charging on printing" />
+    <list default="true" id="f380fb3b-e362-484f-bdd6-3c482c3d4711" name="Default Changelist" comment="charging on printing">
+      <change afterPath="$PROJECT_DIR$/images/charts/france/cas_comp_j7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/cas_journ.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/cas_journ_recent.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/cas_journ_recentlog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/cas_journlog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/dashboard_jour.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/dc_journ.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/dc_journlog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/evolution_deps/evolution_deps_2021-07-03.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/hosp_journ.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/hosp_journ_adm.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/hosp_journ_admlog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/hosp_journlog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/rea_journ.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/rea_journ_adm.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/rea_journ_admlog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/rea_journlog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/variants_nombre.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/charts/france/variants_pourcent.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_confirmed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_confirmed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_deaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_deaths.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnees-opencovid.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnees-opencovid.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnees-vacsi-a-dep.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnees-vacsi-a-dep.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnees-vacsi-a-fra.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnees-vacsi-a-fra.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnees-vacsi-a-reg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnees-vacsi-a-reg.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnees_obepine_regions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnees_obepine_regions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnes-hospitalieres-clage-covid19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnes-hospitalieres-clage-covid19.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnes-hospitalieres-covid19-nouveaux.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnes-hospitalieres-covid19-nouveaux.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnes-hospitalieres-covid19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnes-hospitalieres-covid19.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/donnes-incidence-metropoles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/donnes-incidence-metropoles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/metadata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/metadata.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/covidep_vagues.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/covidep_vagues.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/dataexplorer_compr.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/dataexplorer_compr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/dataexplorer_compr_age.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/dataexplorer_compr_age.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/incidence_departements.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/incidence_departements.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/incidence_regions.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/incidence_regions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/objectif_deconfinement.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/objectif_deconfinement.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/saturation_rea_regions.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/saturation_rea_regions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/stats/vue-ensemble.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/stats/vue-ensemble.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/sursaud-covid19-departement.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/sursaud-covid19-departement.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/synthese-fra.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/synthese-fra.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/taux-incidence-dep-quot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/taux-incidence-dep-quot.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/tests_viro-dep-quot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/tests_viro-dep-quot.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france/tests_viro-fra-covid19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france/tests_viro-fra-covid19.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/france_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/france_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/info_countries.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/info_countries.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/total_cases_csse.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/total_cases_csse.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/total_deaths_csse.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/total_deaths_csse.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/cas_est_journ.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/cas_est_journ.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/cas_journ_croissance.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/cas_journ_croissance.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/cas_journ_spf.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/cas_journ_spf.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/cas_journ_spf_recent.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/cas_journ_spf_recent.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/cas_journ_spf_recentlog.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/cas_journ_spf_recentlog.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/cas_journ_spflog.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/cas_journ_spflog.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/dc_journ_croissance.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/dc_journ_croissance.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/dc_journ_v1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/dc_journ_v1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/dc_journ_v2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/dc_journ_v2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/evol_journ.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/evol_journ.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/evolution_deps/evolution_deps.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/evolution_deps/evolution_deps.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/evolution_deps/evolution_deps_0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/evolution_deps/evolution_deps_0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/evolution_regs/evolution_regs_3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/hosp_clage_dc.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/hosp_clage_dc.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/hosp_clage_hosp.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/hosp_clage_hosp.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/hosp_clage_rea.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/hosp_clage_rea.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/hosp_journ_croissance.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/hosp_journ_croissance.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/hosp_journ_flux.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/hosp_journ_flux.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/hosp_journ_v1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/hosp_journ_v1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/hosp_journ_v2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/hosp_journ_v2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/points_deces.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/points_deces.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/rea_journ_croissance.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/rea_journ_croissance.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/rea_journ_v1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/rea_journ_v1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/rea_journ_v2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/rea_journ_v2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Auvergne-Rhône-Alpes.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Auvergne-Rhône-Alpes.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Bourgogne-Franche-Comté.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Bourgogne-Franche-Comté.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Bretagne.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Bretagne.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Centre.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Centre.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Corse.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Corse.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Grand Est.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Grand Est.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Guadeloupe.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Guadeloupe.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Guyane.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Guyane.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Hauts-de-France.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Hauts-de-France.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Ile-de-France.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Ile-de-France.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_La Réunion.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_La Réunion.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Martinique.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Martinique.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Mayotte.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Mayotte.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Normandie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Normandie.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Nouvelle-Aquitaine.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Nouvelle-Aquitaine.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Occitanie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Occitanie.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Pays de la Loire.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Pays de la Loire.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Provence-Alpes-Côte d'Azur.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/dashboard_jour_Provence-Alpes-Côte d'Azur.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Auvergne-Rhône-Alpes.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Auvergne-Rhône-Alpes.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Bourgogne-Franche-Comté.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Bourgogne-Franche-Comté.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Bretagne.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Bretagne.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Centre.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Centre.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Corse.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Corse.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Grand Est.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Grand Est.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Guadeloupe.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Guadeloupe.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Guyane.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Guyane.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Hauts-de-France.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Hauts-de-France.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Ile-de-France.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Ile-de-France.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_La Réunion.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_La Réunion.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Martinique.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Martinique.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Mayotte.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Mayotte.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Normandie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Normandie.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Nouvelle-Aquitaine.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Nouvelle-Aquitaine.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Occitanie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Occitanie.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Pays de la Loire.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Pays de la Loire.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Provence-Alpes-Côte d'Azur.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/hosp_journ_flux_Provence-Alpes-Côte d'Azur.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Auvergne-Rhône-Alpes.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Auvergne-Rhône-Alpes.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Bourgogne-Franche-Comté.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Bourgogne-Franche-Comté.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Bretagne.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Bretagne.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Centre.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Centre.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Corse.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Corse.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Grand Est.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Grand Est.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Guadeloupe.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Guadeloupe.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Guyane.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Guyane.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Hauts-de-France.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Hauts-de-France.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Ile-de-France.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Ile-de-France.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_La Réunion.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_La Réunion.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Martinique.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Martinique.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Mayotte.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Mayotte.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Normandie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Normandie.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Nouvelle-Aquitaine.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Nouvelle-Aquitaine.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Occitanie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Occitanie.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Pays de la Loire.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Pays de la Loire.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Provence-Alpes-Côte d'Azur.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/regions_dashboards/saturation_rea_journ_Provence-Alpes-Côte d'Azur.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/tests_journ.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/tests_journ.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/var_journ.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/var_journ.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/charts/france/var_journ_lines.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/charts/france/var_journ_lines.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/cases_per_1m_inhabitant.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/cases_per_1m_inhabitant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/cases_per_1m_inhabitant_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/cases_per_1m_inhabitant_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/cases_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/cases_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/cases_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/cases_world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/deaths.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/deaths.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/deaths_per_1m_inhabitant.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/deaths_per_1m_inhabitant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/deaths_per_1m_inhabitant_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/deaths_per_1m_inhabitant_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/deaths_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/deaths_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/deaths_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/deaths_world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_comp_j7.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_comp_j7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_est_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_est_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ_croissance.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ_croissance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ_recent.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ_recent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ_recentlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ_recentlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spf.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spf_recent.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spf_recent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spf_recentlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spf_recentlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spflog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journ_spflog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/cas_journlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/cas_journlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/dc_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/dc_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/dc_journ_croissance.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/dc_journ_croissance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/dc_journ_v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/dc_journ_v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/dc_journ_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/dc_journ_v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/dc_journlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/dc_journlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/evol_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/evol_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/evolution_deps/evolution_deps_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/evolution_deps/evolution_deps_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_clage_dc.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_clage_dc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_clage_hosp.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_clage_hosp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_clage_rea.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_clage_rea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_adm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_admlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_admlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_croissance.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_croissance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_flux.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_flux.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journ_v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/hosp_journlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/hosp_journlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/rea_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/rea_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/rea_journ_adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/rea_journ_adm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/rea_journ_admlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/rea_journ_admlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/rea_journ_croissance.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/rea_journ_croissance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/rea_journ_v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/rea_journ_v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/rea_journ_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/rea_journ_v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/rea_journlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/rea_journlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/tests_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/tests_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/var_journ.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/var_journ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/france/var_journ_lines.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/france/var_journ_lines.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases_per_1m_inhabitant.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases_per_1m_inhabitant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases_per_1m_inhabitant_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases_per_1m_inhabitant_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/cases_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths_per_1m_inhabitant.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths_per_1m_inhabitant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths_per_1m_inhabitant_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths_per_1m_inhabitant_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths_since.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/log_yaxis/deaths_since.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/subplots_confirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/subplots_confirmed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/subplots_confirmed_samescale.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/subplots_confirmed_samescale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/subplots_deaths.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/subplots_deaths.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_exports/subplots_deaths_samescale.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/html_exports/subplots_deaths_samescale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/france/berryllium_france_charts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/france/berryllium_france_charts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/france/berryllium_france_create_charts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/france/berryllium_france_create_charts.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,12 +234,15 @@
   </component>
   <component name="JupyterTrust" id="79af384b-dfa2-46b5-9eb4-fd31fbe0918b" />
   <component name="ProjectId" id="1uPD0vaADhtRgqMnaXLU1esRcNI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -75,12 +275,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/2021-4A-IABD-2_tf/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/france" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/world" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/france/berryllium_france_charts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/world/world_charts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +336,13 @@
       <workItem from="1624980651842" duration="3021000" />
       <workItem from="1624986027703" duration="1123000" />
       <workItem from="1624987466555" duration="99000" />
-      <workItem from="1624987646909" duration="3277000" />
+      <workItem from="1624987646909" duration="6340000" />
+      <workItem from="1625049533364" duration="3190000" />
+      <workItem from="1625414742915" duration="8174000" />
+      <workItem from="1625517963789" duration="3474000" />
+      <workItem from="1625585548513" duration="597000" />
+      <workItem from="1625645812072" duration="2657000" />
+      <workItem from="1625664498563" duration="1495000" />
     </task>
     <task id="LOCAL-00001" summary="charging on printing">
       <created>1624990170716</created>
@@ -151,7 +357,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/Berryllium-covid" />
     </ignored-roots>
@@ -170,6 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Berryllium_covid$Berryllium.coverage" NAME="Berryllium Coverage Results" MODIFIED="1624990007593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/france" />
+    <SUITE FILE_PATH="coverage/Berryllium_covid$Berryllium.coverage" NAME="Berryllium Coverage Results" MODIFIED="1625667191106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/world" />
   </component>
 </project>
