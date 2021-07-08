@@ -122,7 +122,7 @@ fig.update_layout(
                         y=1.1,
                         xref='paper',
                         yref='paper',
-                        text='Mis à jour le {}. Données : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW - berryllium.'.format(now.strftime('%d %B')),
+                        text='Mis à jour le {}. Données : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW -'.format(now.strftime('%d %B')),
                         showarrow = False
                     )]
 )
@@ -196,7 +196,7 @@ fig.update_layout(
                         y=1.1,
                         xref='paper',
                         yref='paper',
-                        text='Mis à jour : {}. Données : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW - berryllium.'.format(now.strftime('%d %B')),
+                        text='Mis à jour : {}. Données : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW '.format(now.strftime('%d %B')),
                         showarrow = False
                     )]
 )
