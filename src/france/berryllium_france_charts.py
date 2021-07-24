@@ -394,7 +394,7 @@ df_variants = data.import_data_variants_deps()
 
 df_tests_viros_france = df_tests_viros.groupby(['jour', 'cl_age90']).sum().reset_index()
         
-def incidence_deps_data():
+"""def incidence_deps_data():
     incidence_departements = {}
     
     with open(PATH_STATS + 'incidence_departements.json', 'r') as f:
@@ -416,7 +416,7 @@ def incidence_deps_data():
         df_dep = df_temp[df_temp["departmentName"] == dep].reset_index()
         df_dep_tests = df_tests_viros_departements[df_tests_viros_departements["departmentName"] == dep].reset_index()
         df_dep_lits = df_temp_lits[df_temp_lits["departmentName"] == dep].reset_index()
-        data_json["incidence_cas"] = int(np.round(df_dep_tests["P"].values[-7:].sum()/df_dep_tests["pop"].values[0]*100000))
+        data_json["incidence_cas"] = int(np.round(df_dep_tests["P"].values[-7:].sum()/df_dep_tests["pop"].values[1]*100000))
         incidence_j7 = int(np.round(df_dep_tests["P"].values[-14:-7].sum()/df_dep_tests["pop"].values[0]*100000))
         
         data_json["incidence_evol"] = np.nan_to_num(round((data_json["incidence_cas"]-incidence_j7)/incidence_j7*100, 2))
@@ -473,7 +473,7 @@ def incidence_deps_data():
     with open(PATH_STATS + 'incidence_departements.json', 'w') as outfile:
         json.dump(dict_json, outfile)
         
-incidence_deps_data()
+incidence_deps_data()"""
 
 
 # In[25]:
@@ -854,7 +854,7 @@ for (range_x, name_fig) in [(["2020-03-22", last_day_plot], "var_journ_lines")]:
                         y=1.05,
                         xref='paper',
                         yref='paper',
-                        text='Date : {}. Source : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
+                        text='Date : {}. Source : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW berryllium.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
                     ),
                     ]
                      )

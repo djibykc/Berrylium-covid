@@ -374,9 +374,9 @@ def import_data_hosp_fra_clage():
 # In[10]:
 
 
-#import_data_opencovid()
-#download_data()
-#df, df_confirmed, dates, df_new, df_tests, df_deconf, df_sursaud, df_incid, df_tests_viro = import_data()
+import_data_opencovid()
+download_data()
+df, df_confirmed, dates, df_new, df_tests, df_deconf, df_sursaud, df_incid, df_tests_viro = import_data()
 
 
 # In[11]:
