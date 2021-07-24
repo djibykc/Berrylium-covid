@@ -189,7 +189,7 @@ def cas_journ(departement):
                         xref='paper',
                         yref='paper',
                         font=dict(size=14),
-                        text='{}. Données : Santé publique France. Auteur : <b>@DJIBY CASSE & Alpha Sow - Berryllium.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
+                        text='{}. Données : Santé publique France. Auteur : <b>@DJIBY CASSE & Alpha Sow - </b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
                     ),
                     ]
                      )
@@ -322,7 +322,7 @@ def nombre_variants(departement):
                             y=1.1,
                             xref='paper',
                             yref='paper',
-                            text='Date : {}. Données : Santé publique France. Auteur : @DJIBY CASSE & Alpha Sow - Berryllium.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),
+                            text='Date : {}. Données : Santé publique France. Auteur : @DJIBY CASSE & Alpha Sow '.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),
                             showarrow = False
                         )]
     )
@@ -565,7 +565,7 @@ def cas_journ_departements_couvre_feu(departements):
                         xref='paper',
                         yref='paper',
                         font=dict(size=14),
-                        text='{}. Auteur : <b>@DJIBY CASSE & Alpha Sow - Berryllium.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b'), "Nb de cas/semaine/100k hab."),                    
+                        text='{}. Auteur : <b>@DJIBY CASSE & Alpha Sow </b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b'), "Nb de cas/semaine/100k hab."),                    
                         showarrow = False
                     ),
                     dict(
@@ -800,7 +800,7 @@ def cas_journ_departements_couvre_feu_hosp(departements):
                         xref='paper',
                         yref='paper',
                         font=dict(size=14),
-                        text='{}. Auteur : <b>@Djiby CASSE & Alpha SOW - Berryllium.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b'), "Nb de cas/semaine/100k hab."),                    
+                        text='{}. Auteur : <b>@Djiby CASSE & Alpha SOW.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b'), "Nb de cas/semaine/100k hab."),                    
                         showarrow = False
                     ),
                     dict(
@@ -1066,7 +1066,7 @@ def hosp_journ(departement):
                         xref='paper',
                         yref='paper',
                         font=dict(size=14),
-                        text='{}. Données : Santé publique France. Auteur : <b>@Djiby CASSE & Alpha SOW - Berryllium.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
+                        text='{}. Données : Santé publique France. Auteur : <b>@Djiby CASSE & Alpha SOW </b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
                     ),
                     ]
                      )
@@ -1226,7 +1226,7 @@ def hosp_comparaison_vagues(departement):
                         y=-0.08,
                         xref='paper',
                         yref='paper',
-                        text="Date : {}. Source : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW - Berryllium. - nombre d'hospitalisations".format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
+                        text="Date : {}. Source : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW - nombre d'hospitalisations".format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
                     ),
                     ]
                      )
@@ -1445,7 +1445,7 @@ def hosp_journ_elias(dep):
                             font=dict(size=14),
                             xref='paper',
                             yref='paper',
-                            text="Moyenne mobile 7 jours. Données Santé publique France. Auteurs @Djiby CASSE & Alpha SOW - <b>Berryllium.</b>.", #'Date : {}. Source : Santé publique France. Auteur : Djiby CASSE & Alpha SOW - Berryllium.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),
+                            text="Moyenne mobile 7 jours. Données Santé publique France. Auteurs @Djiby CASSE & Alpha SOW <b>.</b>.", #'Date : {}. Source : Santé publique France. Auteur : Djiby CASSE & Alpha SOW.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),
                             showarrow = False
                         ),
 
@@ -1563,7 +1563,7 @@ def hosp_journ_elias(dep):
                 font=dict(size=10),
                 xref='paper',
                 yref='paper',
-                text="",#'Date : {}. Source : Santé publique France. Auteur : Djiby CASSE & Alpha SOW - Berryllium.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
+                text="",#'Date : {}. Source : Santé publique France. Auteur : Djiby CASSE & Alpha SOW '.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
                 showarrow=False
                         ))
 
@@ -1663,7 +1663,7 @@ def rea_journ(departement):
                         xref='paper',
                         yref='paper',
                         font=dict(size=14),
-                        text='{}. Données : Santé publique France. Auteur : <b>Djiby CASSE & Alpha SOW - Berryllium.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
+                        text='{}. Données : Santé publique France. Auteur : <b>Djiby CASSE & Alpha SOW </b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
                     ),
                     ]
                      )
@@ -1802,7 +1802,7 @@ def dc_journ(departement):
                         xref='paper',
                         yref='paper',
                          font=dict(size=14),
-                        text='{}. Données : Santé publique France. Auteur : <b>Djiby CASSE & Alpha SOW - Berryllium.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
+                        text='{}. Données : Santé publique France. Auteur : <b>Djiby CASSE & Alpha SOW </b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
                     ),
                     ]
                      )
@@ -1896,7 +1896,7 @@ def saturation_rea_journ(dep):
                         y=1,
                         xref='paper',
                         yref='paper',
-                        text='Date : {}. Source : Santé publique France. Auteur : Djiby CASSE & Alpha SOW - Berryllium.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
+                        text='Date : {}. Source : Santé publique France. Auteur : Djiby CASSE & Alpha SOW '.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
                     ),
                     ]
                      )
@@ -2194,7 +2194,7 @@ for i in range(0, n_tot):
                 xref='paper',
                 yref='paper',
                 font=dict(size=14),
-                text='{}. Données : Santé publique France. Auteur : <b>Djiby CASSE & Alpha SOW - Berryllium.</b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
+                text='{}. Données : Santé publique France. Auteur : <b>Djiby CASSE & Alpha SOW </b>'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %b')),                    showarrow = False
                         ),
             dict(
                 x=-0.08,

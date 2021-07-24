@@ -854,7 +854,7 @@ for (range_x, name_fig) in [(["2020-03-22", last_day_plot], "var_journ_lines")]:
                         y=1.05,
                         xref='paper',
                         yref='paper',
-                        text='Date : {}. Source : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW berryllium.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
+                        text='Date : {}. Source : Santé publique France. Auteur : @Djiby CASSE & Alpha SOW.'.format(datetime.strptime(max(dates), '%Y-%m-%d').strftime('%d %B %Y')),                    showarrow = False
                     ),
                     ]
                      )
