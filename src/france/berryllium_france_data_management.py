@@ -13,8 +13,23 @@ PATH_STATS = "../../data/france/stats/"
 
 
 # In[9]:
+##############AMAZON S3
+"""import boto3
+def loadFileS3(self, df):
+    bucket = 's3projetannuel'
+    PATH = 'data/'
+    # csv_buffer = StringIO()
+    # df.to_csv(csv_buffer)
+    s3 = boto3.resource('s3',
+                    aws_access_key_id='AKIAX7NBXBN3XXSVCZJ5',
+                    aws_secret_access_key='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'
+                    )
+    # file = /Users/alphasow/Downloads/new_user_credentials.csv
+    # content = "String content to write to a new S3 file"
+    s3.Object(bucket, PATH + 'newfile2.csv').put(Body=df)"""
 
 
+##################################################
 # Download data from Santé publique France and export it to local files
 
 def download_data():
@@ -32,7 +47,8 @@ def download_data():
     pbar.update(2)
     geojson = requests.get(url_geojson)
     pbar.update(3)
-    
+    #loadFileS3(metadata)
+
     with open(PATH + 'data/france/metadata.csv', 'wb') as f:
         f.write(metadata.content)
     pbar.update(4)

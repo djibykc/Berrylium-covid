@@ -21,7 +21,7 @@ Requirements: please see the imports below (use pip3 to install them).
 # In[27]:
 
 
-from multiprocessing import Pool
+
 import requests
 import pandas as pd
 import math
